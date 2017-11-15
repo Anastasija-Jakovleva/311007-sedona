@@ -9,11 +9,12 @@
     <header class="main-hader">
       <nav class="main-navigation">
         <a class="main-header-logo" href="#">
-          <img src="img/filter background.jpeg" width="1200" height="562" alt="фоновое фильтра">
+          <img src="img/filter_background.jpeg" width="1200" height="562" alt="фоновое фильтра">
           <!--назвала как в фотошопе-->
         </a>
           <a class ="main-header-logo-small" href="#">
             <img src="img/logo-small.png" width="138" height="70" alt="маленький логотип">
+          </a>
          <ul class="site-navigation">
            <li><a href="info.html">Информация</a></li>
            <li><a href="photo-and-video.html">Фото и видео</a></li>
@@ -43,52 +44,56 @@
   <legend>Инфраструктура:</legend>
   <ul>
     <li class="filter-option">
-      <input class="visually hidden filter-input filter-input-chekbox"
-      type="chekbox" name="бассейн" checked>
+      <input class="visually hidden filter-input filter-input-checkbox"
+      type="checkbox" name="бассейн" id="filter-pool" checked>
        <label for="filter-pool">Бассейн</label>
       Бассейн
     </li>
     <li class="filter-option">
-      <input class="visually hidden filter-input filter-input-chekbox"
-      type="chekbox" name="парковка">
+      <input class="visually hidden filter-input filter-input-checkbox"
+      type="checkbox" name="парковка" id="filter-parking">
       <label for="filter-parking">Парковка</label>
       Парковка
     </li>
     <li class="filter-option">
-      <input class="visually hidden filter-input filter-input-chekbox"
-      type="chekbox" name="wi-fi">
+      <input class="visually hidden filter-input filter-input-checkbox"
+      type="checkbox" name="wi-fi" id="filter-wi-fi">
       <label for="filter-wi-fi">WI-FI</label>
       WI-FI
     </li>
+    </ul>
 </fieldset>
+
 <fieldset>
   <legend>Тип жилья:</legend>
   <ul>
     <li class="filter-option">
-      <input class="visually hidden filter-input filter-input-chekbox"
-      type="chekbox" name="гостиница" checked>
+      <input class="visually hidden filter-input filter-input-checkbox"
+      type="checkbox" name="гостиница" id="filter-hotel" checked>
         <label for="filter-hotel">Гостиница</label>
       Гостиница
     </li>
     <li class="filter-option">
-      <input class="visually hidden filter-input filter-input-chekbox"
-      type="chekbox" name="мотель" checked>
+      <input class="visually hidden filter-input filter-input-checkbox"
+      type="checkbox" name="мотель" id="filter-motel" checked>
       <label for="filter-motel">Мотель</label>
       Мотель
     </li>
     <li class="filter-option">
-      <input class="visually hidden filter-input filter-input-chekbox"
-      type="chekbox" name="апартаменты" checked>
-      <label for="filter-motel">Апартаменты</label>
+      <input class="visually hidden filter-input filter-input-checkbox"
+      type="checkbox" name="апартаменты" id="filter-apatment" checked>
+      <label for="filter-apatment">Апартаменты</label>
       Апартаменты
     </li>
+    </ul>
   </fieldset>
+
     <fieldset>
       <legend>Стоимость в сутки (Р):</legend>
 
 <!--Не понимаю как сделать ползунок с двумя ручками-->
 
-      <fieldset>
+</fieldset>
         <button type="submit" class="filter-button button">Показать</button>
      </form>
    </section>

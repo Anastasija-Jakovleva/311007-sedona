@@ -82,24 +82,31 @@
        <!--"здесь будет форма"-->
        <form class="search" method="post" action="#">
          <p>
-           <label for="date">Дата заезда<label>
-             <input id="date" type="date" name="arrival date"
+           <label for="arrival-date">Дата заезда</label>
+             <input id="arrival-date" type="text" name="text"
              placeholder="24 апреля 2017">
            </p>
            <p>
-             <label for="date">Дата выезда<label>
-               <input id="date" type="date" name="date of departure"
+             <label for="date-of-departure">Дата выезда</label>
+               <input id="date-of-departure" type="text" name="text"
                placeholder="4 июля 2017">
              </p>
              <p>
-               <label for="age">Взрослые<label>
-                 <!--Не понимаю как описать количество +/- -->
+               <label for=adults>Взрослые</label>
+                 <input id=adults>
+                 <button type="button">-</button>
+                 2
+                 <button type="button">+</button>
                </p>
                <p>
-                 <label for="age">Дети<label>
+                 <label for=childrens>Дети</label>
+                   <input id=childrens>
+                   <button type="button">-</button>
+                   0
+                   <button type="button">+</button>
                  </p>
 
-             <button type="search" class="filter-button button">Найти</button>
+             <button type="submit" class="filter-button button">Найти</button>
 
        </form>
        </section>
