@@ -91,23 +91,19 @@
                <input id="date-of-departure" type="text" name="text"
                placeholder="4 июля 2017">
              </p>
-             <p>
-               <label for=adults>Взрослые</label>
-                 <input id=adults>
-                 <button type="button">-</button>
-                 2
-                 <button type="button">+</button>
-               </p>
-               <p>
-                 <label for=childrens>Дети</label>
-                   <input id=childrens>
-                   <button type="button">-</button>
-                   0
-                   <button type="button">+</button>
-                 </p>
-
+             <div>
+               <label for="adults">Взрослые:</label>
+                 <button class="filter-button" type="button">-</button>
+                 <input id="adults" value="2">
+                 <button class="filter-button" type="button">+</button>
+                 <label for="childrens">Дети:</label>
+                   <button class="filter-button" type="button">-</button>
+                   <input id="childrens" value="0">
+                   <button class="filter-button" type="button">+</button>
+              </div>
+            <div>
              <button type="submit" class="filter-button button">Найти</button>
-
+           </div>
        </form>
        </section>
 
