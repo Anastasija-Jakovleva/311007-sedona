@@ -9,10 +9,10 @@
     <header class="main-hader">
       <nav class="main-navigation">
          <a class="main-header-logo" href="#">
-           <img src="img/logo.jpg" width="1200" height="780" alt="Логотп">
+           <img src="img/logo.jpg" width="1200" height="780" alt="логотп">
          </a>
            <a class ="main-header-logo-small" href="#">
-             <img src="img/Logo-small.png" width="138" height="70" alt="Маленький логотип">
+             <img src="img/logo-small.png" width="138" height="70" alt="маленький логотип">
          </a>
          <ul class="site-navigation">
            <li><a href="info.html">Информация</a></li>
@@ -34,7 +34,7 @@
        </li>
      </ul>
 
-      <img src="img/picture-1.jpg" width="800" height="256" alt="Картинка 1">
+      <img src="img/picture-1.jpg" width="800" height="256" alt="картинка 1">
 
          <ul class="leisure-list">
            <li class="leisure-item">
@@ -51,7 +51,7 @@
          </li>
        </ul>
 
-      <img src="img/picture-2.jpg" width="800" height="256" alt="Картинка 2">
+      <img src="img/picture-2.jpg" width="800" height="256" alt="картинка 2">
 
      <ul class="features-list">
        <li class="faetures-item">
@@ -80,9 +80,31 @@
        <section class="search-from-site">
          <h3>Поиск гостиницы в Седоне</h3>
        <!--"здесь будет форма"-->
+       <form class="search" method="post" action="#">
+         <p>
+           <label for="date">Дата заезда<label>
+             <input id="date" type="date" name="arrival date"
+             placeholder="24 апреля 2017">
+           </p>
+           <p>
+             <label for="date">Дата выезда<label>
+               <input id="date" type="date" name="date of departure"
+               placeholder="4 июля 2017">
+             </p>
+             <p>
+               <label for="age">Взрослые<label>
+                 <!--Не понимаю как описать количество +/- -->
+               </p>
+               <p>
+                 <label for="age">Дети<label>
+                 </p>
+
+             <button type="search" class="filter-button button">Найти</button>
+
+       </form>
        </section>
 
-       <img src="img/pmap.jpg" width="1200" height="593" alt="Карта">
+       <img src="img/map.jpg" width="1200" height="593" alt="Карта">
 
      <footer class="main-footer">
        <p class="footer-contacts">
