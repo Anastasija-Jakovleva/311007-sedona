@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: regular;
+  color: #333333;
+
+  background-color: #ffffff;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+h1 {
+  text-decoration: none;
+  text-align: center;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.features h2 {
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: regular;
+  color: #333333;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.features-item {
+  text-align: center;
+  background-color: #81b3d2;
+}
+
+.features-item h3 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.features-item p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: regular;
+  color: #ffffff;
+}
+
+.leisure-list {
+  list-style: none;
+}
+
+.leisure-item {
+  text-align: center;
+}
+
+.leiser-item h4 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.leiser-item p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: regular;
+  color: #333333;
+}
+
+.search-from-site {
+  text-align: center;
+}
+
+.search-from-site h3 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.search-from-site p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: regular;
+  color: #333333;
+}
+
+.search-form {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.search-form h3:hover
+.search-form h3:focus {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #766357;
+}
+
+.main-footer:hover
+.main-footer:focus {
+  text-align: center;
+  background-color: #f9fbf6;
+}
