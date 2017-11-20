@@ -3,14 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic"
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"></link>
   </head>
   <body>
 
     <header class="main-hader">
       <nav class="main-navigation">
         <a class="main-header-logo" href="#">
-          <img src="img/filter_background.jpeg" width="1200" height="562" alt="фоновое фильтра">
-          <!--назвала как в фотошопе-->
+          <img src="img/filter_background.jpg" width="1200" height="562" alt="фоновое фильтра">
         </a>
           <a class ="main-header-logo-small" href="#">
             <img src="img/logo-small.png" width="138" height="70" alt="маленький логотип">
@@ -40,6 +43,7 @@
    <section class="filters">
      <h2 class="visually-hidden">Фильтр товаров</h2>
      <form class="filter" method="get" action="#">
+
 <fieldset>
   <legend>Инфраструктура:</legend>
   <ul>
@@ -90,13 +94,13 @@
 
     <fieldset>
       <legend>Стоимость в сутки (Р):</legend>
+    </fieldset>
 
-<!--Не понимаю как сделать ползунок с двумя ручками-->
-
-</fieldset>
         <button type="submit" class="filter-button button">Показать</button>
      </form>
    </section>
+
+
    <section class="catalog">
      <h2 class="visually-hidden">Список номеров</h2>
      <ul class="catalog-list">
@@ -110,8 +114,8 @@
        <p class="catalog-item-price">
          <b>ГОСТИНИЦА</b>
          <b>ОТ 4000 Р.</b>
-         <a class="button" href="#">Подробнее</a>
-         <a class="button" href="#">Забронировать</a>
+         <a class="button-blue" href="#">Подробнее</a>
+         <a class="button-brown" href="#">Забронировать</a>
          <a class="button" href="#">Рейтинг: 8,5</a>
          <!--здесь будут звездочки-->
        </p>
@@ -126,8 +130,8 @@
       <p class="catalog-item-price">
         <b>МОТЕЛЬ</b>
         <b>ОТ 3000 Р.</b>
-        <a class="button" href="#">Подробнее</a>
-        <a class="button" href="#">Забронировать</a>
+        <a class="button-blue" href="#">Подробнее</a>
+        <a class="button-brown" href="#">Забронировать</a>
         <a class="button" href="#">Рейтинг: 8,9</a>
         <!--здесь будут звездочки-->
       </p>
@@ -142,8 +146,8 @@
      <p class="catalog-item-price">
        <b>АПАРТАМЕНТЫ</b>
        <b>ОТ 2000 Р.</b>
-       <a class="button" href="#">Подробнее</a>
-       <a class="button" href="#">Забронировать</a>
+       <a class="button-blue" href="#">Подробнее</a>
+       <a class="button-brown" href="#">Забронировать</a>
        <a class="button" href="#">Рейтинг: 9,2</a>
        <!--здесь будут звездочки-->
      </p>

@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+
+  background-color: #ffffff;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mine-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.mine-navigation:hover {
+  color: #89b8d5;
+}
+
+.mine-navigation:hover {
+  color: #b2b2b2;
+}
+
+.filters {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #5a656e;
+}
+
+.serch h3 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.sorting h2 {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: regular;
+  color: #000000;
+}
+
+.sorting-list {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: regular;
+  color: #000000;
+  opacity: 0,3;
+  text-decoration: underline;
+}
+
+.sorting-list:hover {
+  color: #89b8d5;
+  text-decoration: underline;
+}
+
+.sorting-list:active {
+  color: #000000;
+}
+
+.catalog-item {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.catalog-item:hover {
+  color: #81b3d2;
+}
+
+.catalog-item:active {
+  color: #000000;
+  opacity: 0,3;
+}
+
+.button-blue {
+  font-size: 14px;
+  line-height: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.button-blue:hover {
+  background-color: #669ec0;
+}
+
+.button-blue:active {
+  opacity: 0,3;
+}
+
+.button-brown {
+  font-size: 14px;
+  line-height: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #766357;
+}
+
+.button-brown:hover {
+  background-color: #604e43;
+}
+
+.button-brown:active {
+  opacity: 0,3;
+}
